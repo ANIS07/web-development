@@ -1,0 +1,95 @@
+/* GENERAL */
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+}
+h1 {
+    font-family: 'Crete Round',serif;
+    font-size: 45px;
+    color:#444;    
+
+}
+h2{
+    color:#444;
+    font-style:55px;
+}
+
+ul
+{
+    list-style: none; /*on enlève le bullets*/
+}
+/* le conteneur invisible qui se centre automatiquement au milieux*/
+.wrapper{
+    width:940px;
+    margin:0 auto;
+    padding:0 10px: /* padding pour qu'il ne soit pas collé */
+}
+.orange{
+    color :#ff7a00;
+}
+
+a{
+    text-decoration: none; /* pour que le lien ne soit plus souligné */
+    color :#444;
+}
+
+/*HEADER*/
+
+header{
+    height: 120px;
+}
+/* On fait flotter le titre du header à gauche*/
+header h1{
+    float:left;
+    margin-top:32px;
+}
+/*header de navigation */
+header nav{
+    float:right;
+    margin-top:50px;
+    
+}
+
+header nav ul li{
+    float:left; /* chacun de li flotte par rapport au ul */
+    display:inline-block; /* ecrire les elements de la liste  l'un a coté de l'autre*/
+}
+
+header nav ul li a{
+    text-transform: uppercase; /* mettre en maj*/
+    font-weight: bold; /* les liens en gras*/
+    margin-right: 20px; /* on les espace de 20 px */    
+}
+
+/* MAIN IMAGE */
+#main-image{
+    height:500px;
+    background: url('./images/main.jpg') center;
+
+}
+
+#main-image h2 {
+    font-weight: normal; /* nellever le gras*/
+    text-transform: uppercase;
+    text-align: center; /* centrer le texte*/
+    padding:150px 0 40px 0;
+    margin-bottom: 20px;
+}
+
+.button-1{
+    display: block;
+    width: 120px;
+    height: 50px;
+    background: #ff7a00;
+    color:#fff;
+    font-size: 20px;
+    margin: 0 auto; /* haut/bas : pas de marge , centrer */
+    line-height: 50px ; /* la hauteur de ligne */
+    text-align: center; /* centrer le texte */
+    border-radius: 3px;
+}
