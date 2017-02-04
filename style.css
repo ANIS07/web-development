@@ -19,6 +19,17 @@ h2{
     font-style:55px;
 }
 
+h4{
+    font-size: 24px;
+    color:#444;
+}
+
+p{
+    line-height:20px;
+    color:#777;   
+}
+
+
 ul
 {
     list-style: none; /*on enlève le bullets*/
@@ -92,4 +103,51 @@ header nav ul li a{
     line-height: 50px ; /* la hauteur de ligne */
     text-align: center; /* centrer le texte */
     border-radius: 3px;
+}
+.button-1:hover{
+    background: #02b8dd;
+}
+
+
+/* STEPS */
+
+#steps ul {
+    /* pour que ça soit espacé de la première images */
+    margin: 80px 0;
+    
+}
+
+/* les faire flotter chacune à gauche 
+les mettre cote à cote */
+#steps ul li {
+    width:300px;
+    float: left;
+    /* pour que le texte soit en bas de l'image*/
+    padding-top: 140px;
+    /* pour que le texte soit centré */
+    text-align: center;
+    /* espaces entres les différents li */
+    margin-right: 10px;
+    
+}
+
+#steps h4{
+    text-transform: uppercase;
+    margin-bottom: 20px; /* pour ne pas colleer au paragraphe*/
+}
+#steps p{
+    margin-bottom: 20px;
+}
+
+
+#step-1 {
+    /* pour ne pas répéter l'image sur toute la taille */
+    background: url('./images/steps-icon-1.png')  no-repeat top center;
+    
+}
+#step-2 {
+    background: url('./images/steps-icon-2.png')  no-repeat top center;
+}
+#step-3 {
+    background: url('./images/steps-icon-3.png')  no-repeat top center;
 }
