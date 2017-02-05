@@ -8,20 +8,26 @@ body{
     font-family: Arial,sans-serif;
     font-size: 15px;
 }
+
+h1,h2,h3,h4{
+    color:#444;
+}
 h1 {
     font-family: 'Crete Round',serif;
     font-size: 45px;
-    color:#444;    
+        
 
 }
 h2{
-    color:#444;
     font-style:55px;
+}
+
+h3{
+    font-size: 30px;
 }
 
 h4{
     font-size: 24px;
-    color:#444;
 }
 
 p{
@@ -192,6 +198,7 @@ les mettre cote à cote */
     padding:20px;
     border-radius: 10px;
     text-align: center;
+    box-sizing: border-box; /* Pour que la hauteur du overlay inclue le padding */
 }
 
 article h4{
@@ -218,4 +225,21 @@ article h4{
     color:#fff;
     background-color: #02b8dd;
 
+}
+
+
+/* CONTACT */
+
+#contact{
+    padding:60px 0;
+    text-align-last: center;
+}
+
+#contact h3{
+    width: 400px;
+    text-transform: uppercase;
+    margin:0 auto  20px;  /* centrer avec marge en bas */
+    border-bottom: 1px solid #02b8dd;
+    padding-bottom: 20px;
+    
 }
